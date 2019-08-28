@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import SceneContainer from './3DComponents/SceneContainer';
+import SceneContainer from './threeJS/SceneContainer';
 
 function App() {
   const [boxRotationSpeed, setBoxRotationSpeed] = useState(1);
